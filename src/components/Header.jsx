@@ -1,9 +1,9 @@
 const Header = () => {
   return (
-    <header className="bg-red-100 flex justify-between items-center ">
-      <div className="flex max-width-[1562px] h-[64px]">
-        <div className="flex items-center max-width-[1200px] h-[64px] mx-[181px] my-0 px-[20px] py-[12px]">
-          <span>
+    <header className="bg-red-100">
+      <div className="flex items-center max-w-[1200px] py-3 px-5 mx-auto h-[64px]">
+        <div className="flex items-center w-full">
+          <span className="mr-[40px]">
             <svg
               width="65"
               height="36"
@@ -48,50 +48,43 @@ const Header = () => {
               </defs>
             </svg>
           </span>
-          <nav className="hidden lg:flex pr-40 justify-between items-center">
-            <ul className="flex justify-center items-center">
-              <li className="flex justify-center items-center pr-30">
-                중고거래
-              </li>
-              <li className="flex justify-center items-center pr-30">
-                동네업체
-              </li>
+          <nav className=" flex pr-10 items-center w-full">
+            <ul className="flex items-center">
+              <li className="flex items-center mr-[30px] text-lg">중고거래</li>
+              <li className="flex items-center mr-[30px] text-lg">동네업체</li>
               <li
                 className="
                 flex
-                justify-center
-                items-center pr-30"
+                items-center mr-[30px] text-lg"
               >
                 알바
               </li>
-              <li className="flex justify-center items-center pr-30">부동산</li>
+              <li className="flex items-center mr-[30px] text-lg">부동산</li>
               <li
                 className="
                 flex
-                justify-center
-                items-center pr-30"
+                items-center mr-[30px] text-lg"
               >
                 중고차 직거래
               </li>
             </ul>
           </nav>
-          <div>
-            <span>
-              <button></button>
-              <form>
-                <input
-                  type="search"
-                  className="flex justify-center items-center"
-                  placeholder="물품이나 동네를 검색해세보세요"
-                />
-              </form>
-            </span>
-            <span>
-              <button className="flex justify-center items-center">
-                채팅하기
-              </button>
-            </span>
-          </div>
+        </div>
+        <div className="flex justify-center items-center">
+          <span className="flex itmes-center">
+            <form className="mr-[12px]">
+              <input
+                type="search"
+                className="bg-[#f2f3f6] flex items-center w-[288px] h-[40px] my-4 py-2 px-3 rounded-lg"
+                placeholder="물품이나 동네를 검색해세보세요"
+              />
+            </form>
+          </span>
+          <span>
+            <button class="bg-[#fff] flex items-center w-[90px] mr-[16px] py-[8px] px-[16px] rounded-lg border-solid border-2 whitespace-nowrap border-[#d1d3d8]">
+              채팅하기
+            </button>
+          </span>
         </div>
       </div>
     </header>
