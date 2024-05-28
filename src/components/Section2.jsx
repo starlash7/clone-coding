@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="flex w-[1562px] h-[750px] bg-[#fff] mx-auto">
+    <div className="flex items-center mx-auto max-w-[1562px] h-[750px] bg-[#fff]">
       <div className="flex bg-[#fff] justify-between items-center w-[1024px] mx-[269px] ">
         <div className="w-[655px] h-[750px] mx-auto">
           <img
