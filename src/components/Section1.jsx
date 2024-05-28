@@ -1,8 +1,8 @@
 const Section1 = () => {
   return (
-    <div className="flex w-[1562px] h-[784px] bg-[#FFFAE0] pt-[24px]">
+    <div className="flex w-[1562px] h-[784px] bg-[#FFFAE0] pt-[24px] ">
       <div className="bg-[#FFFAE0] flex w-[1024px] h-[760px] ml-[269px] relative">
-        <div className="bg-[#FFFAE0] flex-col w-[1024px] h-[525.5px]">
+        <div className="bg-[#FFFAE0] flex-col w-[1024px] h-[525.5px] ">
           <h1 className="flex w-[1024px] h-[346px] pt-[200px] text-[54px] mb-[32px] font-semibold">
             당신 근처의<br></br> 지역 생활 커뮤니티
           </h1>

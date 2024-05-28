@@ -1,8 +1,8 @@
 const Section3 = () => {
   return (
-    <div className="flex bg-[#FFF8F1] w-[1562px] h-[750px]">
+    <div className="flex bg-[#FFF8F1] w-[1562px] h-[750px] mx-auto">
       <div className="flex bg-[#FFF8F1] justify-between items-center w-[1024px] mx-[269px]">
-        <div className="flex-col bg-[#FFF8F1] w-[392px] h-[424px]">
+        <div className="flex-col bg-[#FFF8F1] w-[392px] h-[424px] mx-auto">
           <p className="flex text-[18px] h-[23px] text-[#FF6F0F] mb-[10px]">
             동네생활
           </p>
